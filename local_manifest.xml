@@ -7,7 +7,7 @@
                 fetch="https://github.com/b0nd07" />
    
         <project path="device/realme/RMX1971" name="android_device" remote="hen" revision="eleven" clone-depth="1" />
-        <project path="device/realme/sdm710-common" name="android_common" remote="hen" revision="eleven" clone-depth="1" />
+        <project path="device/realme/sdm710-common" name="android_device_realme_sdm710-common" remote="b0nd07" revision="aex" clone-depth="1" />
         <project path="vendor/realme/RMX1971" name="vendor_device" remote="hen" revision="eleven" clone-depth="1" />
         <project path="vendor/realme/sdm710-common" name="vendor_common" remote="hen" revision="eleven" clone-depth="1" />
         <project path="kernel/realme/RMX1971" name="kernel_realme_RMX1971" remote="bond" revision="caftag" clone-depth="1" />
