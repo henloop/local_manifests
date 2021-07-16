@@ -8,7 +8,7 @@
         <remote name="org"
                 fetch="https://github.com/BOND-ORG" />
    
-        <project path="device/realme/RMX1971" name="A10-rr" remote="hen" revision="rr" clone-depth="1" />
+        <project path="device/realme/RMX1971" name="A10-rr" remote="hen" revision="ten" clone-depth="1" />
         <project path="vendor/realme/RMX1971" name="vendor-10-final" remote="bond" revision="ten" clone-depth="1" />
         <project path="kernel/realme/RMX1971" name="kernel_realme_RMX1971" remote="bond" revision="caftag" clone-depth="1" />
 
