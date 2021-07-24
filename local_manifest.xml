@@ -5,14 +5,17 @@
                 fetch="https://github.com/henloop" />
         <remote name="bond"
                 fetch="https://github.com/b0nd07" />
-        <remote name="org"
-                fetch="https://github.com/BOND-ORG" />
-   
-        <project path="device/realme/RMX1971" name="android_device" remote="hen" revision="eleven-plus" clone-depth="1" />
-        <project path="device/realme/sdm710-common" name="device_common" remote="hen" revision="eleven" clone-depth="1" />
+        <remote name="des"
+                fetch="https://github.com/Descendant-Devices" />
+        <remote name="lab"
+                fetch="https://gitlab.com/MadhavSaladi" />
+
+
+        <project path="device/realme/RMX1971" name="device_realme_RMX1971" remote="bond" revision="aex" clone-depth="1" />
+        <project path="device/realme/sdm710-common" name="device_realme_sdm710-common" remote="des" revision="eleven" clone-depth="1" />
         <project path="vendor/realme/RMX1971" name="vendor_device" remote="hen" revision="eleven" clone-depth="1" />
-        <project path="vendor/realme/sdm710-common" name="vendor_common" remote="hen" revision="eleven" clone-depth="1" />
-        <project path="kernel/realme/RMX1971" name="kernel_realme_RMX1971" remote="bond" revision="caftag" clone-depth="1" />
+        <project path="vendor/realme/sdm710-common" name="vendor_realme_sdm710-common" remote="lab" revision="eleven" clone-depth="1" />
+        <project path="kernel/realme/RMX1971" name="kernel_realme_RMX1971" remote="des" revision="eleven" clone-depth="1" />
 
 
 </manifest>
