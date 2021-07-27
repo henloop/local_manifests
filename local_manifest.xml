@@ -11,7 +11,7 @@
                 fetch="https://gitlab.com/MadhavSaladi" />
 
 
-        <project path="device/realme/RMX1971" name="device_realme_RMX1971" remote="bond" revision="aex" clone-depth="1" />
+        <project path="device/realme/RMX1971" name="device_realme_RMX1971" remote="bond" revision="havoc" clone-depth="1" />
         <project path="device/realme/sdm710-common" name="device_realme_sdm710-common" remote="des" revision="eleven" clone-depth="1" />
         <project path="vendor/realme/RMX1971" name="vendor_device" remote="hen" revision="eleven" clone-depth="1" />
         <project path="vendor/realme/sdm710-common" name="vendor_realme_sdm710-common" remote="lab" revision="eleven" clone-depth="1" />
